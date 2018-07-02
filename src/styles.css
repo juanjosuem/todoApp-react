@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center;*/
+}
+.list-completed {
+  text-decoration: line-through;
+  color: #ebebeb;
+}
+input[type='checkbox'] {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.loading-spinner {
+  width: 90%;
+  background: rgba(0, 0, 0, 0.21176470588235294);
+  color: yellow;
+
+  display: flex;
+  justify-content: center;
+
+  position: absolute;
+
+  top: 44px;
+
+  z-index: 10;
+  padding: 10px;
+}
